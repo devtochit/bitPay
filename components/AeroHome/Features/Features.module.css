@@ -1,0 +1,13 @@
+.list div {
+  background-image: url("../../assets/Images/pattern-2.svg");
+  background-repeat: no-repeat;
+  padding: 20px 20px 10px 20px;
+}
+
+.list div h3 {
+  margin: 5px 0;
+}
+
+.list div p {
+  padding-right: 40px;
+}

@@ -1,0 +1,32 @@
+{
+  "name": "zeddpay",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "build:css": "postcss styles/tailwind.css -o public/dist/tailwind.css",
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "gsap": "^3.9.1",
+    "next-fonts": "^1.5.1",
+    "watch": "^0.13.0",
+    "@reduxjs/toolkit": "^1.8.5",
+    "axios": "^0.27.2",
+    "next": "12.2.5",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-redux": "^8.0.2"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.2",
+    "eslint": "8.9.0",
+    "eslint-config-next": "12.1.0",
+    "postcss": "^8.4.7",
+    "postcss-import": "^14.0.2",
+    "postcss-preset-env": "^7.4.1",
+    "tailwindcss": "^3.0.23"
+  }
+}
